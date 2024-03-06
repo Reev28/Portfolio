@@ -6,6 +6,14 @@ html {
     --line-color: #e5e7eb;
 }
 
+html.dark {
+    --line-color: rgba(255,255,255,0.2);
+}
+
 .borderBlack {
     @apply border border-black/10
+}
+
+.contactInputDark {
+    @apply dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none
 }

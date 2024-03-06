@@ -26,7 +26,7 @@ export default function Contact(props: Props) {
                         viewport={{once:true}}
                         >
             <SectionHeading>Contact Me</SectionHeading>
-            <p className='text-gray-700 -mt-6'>Please contact me directly at {" "}
+            <p className='text-gray-700 -mt-6 dark:text-white/80'>Please contact me directly at {" "}
                 <a className='underline' href='mailto:reev.dsouza@yahoo.com'>
                     reev.dsouza@yahoo.com
                 </a>{" "}or through this form
@@ -37,15 +37,15 @@ export default function Contact(props: Props) {
                                            if(error){toast.error(error);return}
                                            toast.success("Email sent successfully");
                                         }} 
-                className='mt-10 flex flex-col '>
+                className='mt-10 flex flex-col dark:text-black'>
                 <input type="email" 
-                className='h-14 px-4 rounded-lg borderBlack' 
+                className='h-14 px-4 rounded-lg borderBlack contactInputDark' 
                 name='senderEmail'
                 placeholder='Your email'
                 required
                 maxLength={500}
                 />
-                <textarea className='h-52 my-3 rounded-lg borderBlack p-4' 
+                <textarea className='h-52 my-3 rounded-lg borderBlack p-4 contactInputDark' 
                 name='message'
                 placeholder='Your message'
                 required
@@ -64,7 +64,7 @@ const {pending} = useFormStatus();
 
     return (
             <button type='submit' 
-            className='group flex items-center justify-center h-[3rem] w-[8rem] bg-gray-900 text-white rounded-full outline-none transition-all focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 disabled:scale-100 disabled:bg-opacity-65' 
+            className='group flex items-center justify-center h-[3rem] w-[8rem] bg-gray-900 text-white rounded-full outline-none transition-all focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 disabled:scale-100 disabled:bg-opacity-65 dark:bg-white dark:bg-opacity-10' 
             disabled={pending}>
             {pending?<div className='h-5 w-5 animate-spin rounded-full border-b-2 border-white'></div>:
             (<>
