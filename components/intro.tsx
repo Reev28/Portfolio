@@ -8,6 +8,7 @@ import {BsArrowRight, BsLinkedin} from "react-icons/bs"
 import {HiDownload} from "react-icons/hi"
 import { FaGithubSquare } from 'react-icons/fa'
 import { useSectionInView } from '@/lib/hooks'
+import { useActiveSectionContext } from '@/context/active-section-context'
 
 
 
@@ -16,6 +17,7 @@ interface Props {}
 
 export default function Intro(props: Props) {
 const {ref} = useSectionInView('Home',0.5);
+const {setActiveSection,settimeOfLastClick} = useActiveSectionContext();
 
     return (
         <section ref={ref} id="home" className='mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]'>
@@ -53,16 +55,17 @@ const {ref} = useSectionInView('Home',0.5);
                 animate={{opacity:1,y:0}}
                 transition={{delay:0.1}}
                 className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'>
-                <Link href="#contact" className='group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition'>
+                <Link href="#contact" className='group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition'
+                      onClick={()=>{setActiveSection("Contact");settimeOfLastClick(Date.now())}}>
                     Contact me here<BsArrowRight className='opacity-70 group-hover:translate-x-1 transition'/>
                 </Link>
-                <a download href='/Reev Emmanuel Dsouza_Resume.pdf' className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10 '>
+                <a download href='/Reev Emmanuel Dsouza_Resume.pdf' className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack '>
                     Download CV <HiDownload className='opacity-60 group-hover:translate-y-1 transition'/>
                 </a>
-                <a href='https://www.linkedin.com/in/reev/' target={"_blank"} className= 'bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10'>
+                <a href='https://www.linkedin.com/in/reev/' target={"_blank"} className= 'bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack'>
                     <BsLinkedin/>
                 </a>
-                <a href='https://github.com/Reev28' target={"_blank"} className= 'bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10'>
+                <a href='https://github.com/Reev28' target={"_blank"} className= 'bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack'>
                     <FaGithubSquare/>
                 </a>
             </motion.div>
