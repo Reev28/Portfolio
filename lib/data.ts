@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import goancartImg from "@/public/goancart.png";
 import secretsImg from "@/public/secrets.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import keeperImg from "@/public/keeper.png";
 
 export const links = [
   {
@@ -35,28 +35,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Bachelor of Engineering - Computer Science",
+    location: "Goa, India",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 4 years of studying. I immediately found a job as a full-stack developer.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Goa, India",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a full-stack developer at PPL Goa working on the Goancart project.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 - 2024",
+  },
+  {
+    title: "Web Developer",
+    location: "Goa, India",
+    description:
+      "I've completed 'The Complete 2024 Web Development Bootcamp' on Udemy. I also upskilled to React and Next.js. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2024",
   },
 ] as const;
 
@@ -69,18 +69,18 @@ export const projectsData = [
     imageUrl: goancartImg,
   },
   {
-    title: "secrets",
+    title: "Secrets",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Developed a platform for safeguarding your secrets, featuring secure login/register methods employing encryption and hashing. Also, Integrated a 'Sign In with Google' option.",
+    tags: ["javaScript", "EJS", "CSS"],
     imageUrl: secretsImg,
   },
   {
-    title: "Word Analytics",
+    title: "Keeper",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Digital notepad for quickly jotting down ideas and reminders. It helps you stay organized and remember important information.",
+    tags: ["React", "HTML", "CSS"],
+    imageUrl: keeperImg,
   },
 ] as const;
 
@@ -90,18 +90,17 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
+  "jQuery",
+  "EJS",
+  "PHP",
   "Next.js",
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
+  "Bootstrap",
+  "MySQL",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
 ] as const;
