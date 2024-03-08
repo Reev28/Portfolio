@@ -29,7 +29,7 @@ function About() {
                 I <span className="underline">love</span> the feeling of finally figuring out a solution to a problem. I completed a course on Full Stack Development after which my core stack is <span className="font-medium">React, Next.js, Node.js, and MySQL</span>. 
                 I am also familiar with TypeScript. I am currently looking for a <span className="font-medium">full-time position</span> as a software developer.
                 </p>
-<p> <span className="italic">When I'm not coding</span>, I enjoy playing video games, watching movies, and playing musical instruments. I also enjoy learning new things.
+<p> <span className="italic">When I&apos;m not coding</span>, I enjoy playing video games, watching movies, and playing musical instruments. I also enjoy learning new things.
 </p>
         </motion.section>
     )
