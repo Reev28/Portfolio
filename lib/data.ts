@@ -65,8 +65,9 @@ export const projectsData = [
     title: "Goancart",
     description:
       "I worked as a full-stack developer on this industry project for 2 years. Users can access a hyperlocal marketplace in Goa.",
-    tags: ["PHP", "jQuery", "MySQL", "Bootstrap","CodeIgniter"],
+    tags: ["PHP", "jQuery", "MySQL", "Bootstrap","CodeIgniter","AWS"],
     imageUrl: goancartImg,
+    url: "https://www.goancart.com",
   },
   {
     title: "Secrets",
@@ -74,6 +75,7 @@ export const projectsData = [
       "Developed a platform for safeguarding your secrets, featuring secure login/register methods employing encryption and hashing. Also, Integrated a 'Sign In with Google' option.",
     tags: ["javaScript", "EJS", "CSS"],
     imageUrl: secretsImg,
+    url: "",
   },
   {
     title: "Keeper",
@@ -81,6 +83,7 @@ export const projectsData = [
       "Digital notepad for quickly jotting down ideas and reminders. It helps you stay organized and remember important information.",
     tags: ["React", "HTML", "CSS"],
     imageUrl: keeperImg,
+    url: "",
   },
 ] as const;
 
