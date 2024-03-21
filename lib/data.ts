@@ -75,7 +75,7 @@ export const projectsData = [
       "Developed a platform for safeguarding your secrets, featuring secure login/register methods employing encryption and hashing. Also, Integrated a 'Sign In with Google' option.",
     tags: ["javaScript", "EJS", "CSS"],
     imageUrl: secretsImg,
-    url: "",
+    url: "https://github.com/Reev28/Secret-Project",
   },
   {
     title: "Keeper",
@@ -83,7 +83,7 @@ export const projectsData = [
       "Digital notepad for quickly jotting down ideas and reminders. It helps you stay organized and remember important information.",
     tags: ["React", "HTML", "CSS"],
     imageUrl: keeperImg,
-    url: "",
+    url: "https://github.com/Reev28/Keeper-App",
   },
 ] as const;
 
