@@ -2,6 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import lividImg from "@/public/livid.png";
 import goancartImg from "@/public/goancart.png";
 import secretsImg from "@/public/secrets.png";
 import keeperImg from "@/public/keeper.png";
@@ -61,6 +62,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Livid",
+    description:
+      `Livid is a video call application with Features like: login/signup using Google, Schedule meetings, Create and join video meetings, Access and review recorded meetings.`,
+    tags: ["React", "Next.js","TypeScript", "Tailwind", "Clerk"],
+    imageUrl: lividImg,
+    url: "https://livid.vercel.app/",
+  },
   {
     title: "Goancart",
     description:
