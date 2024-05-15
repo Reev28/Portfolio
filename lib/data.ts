@@ -6,6 +6,8 @@ import lividImg from "@/public/livid.png";
 import goancartImg from "@/public/goancart.png";
 import secretsImg from "@/public/secrets.png";
 import keeperImg from "@/public/keeper.png";
+import weatherly from "@/public/weatherly.png";
+
 
 export const links = [
   {
@@ -62,6 +64,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Weatherly",
+    description:
+      "With loved ones spread worldwide, I know the challenge of coordinating across time zones. That's why I made Weatherly - to simplify this and keep us all close!",
+    tags: ["React", "TypeScript", "Next.js","Tailwind"],
+    imageUrl: weatherly,
+    url: "https://weatherlylive.vercel.app/",
+  },
   {
     title: "Livid",
     description:
