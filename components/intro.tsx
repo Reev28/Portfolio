@@ -9,7 +9,7 @@ import {HiDownload} from "react-icons/hi"
 import { FaGithubSquare } from 'react-icons/fa'
 import { useSectionInView } from '@/lib/hooks'
 import { useActiveSectionContext } from '@/context/active-section-context'
-
+import portrait from '../public/ReevPortrait_new.jpg'
 
 
 
@@ -28,7 +28,7 @@ const {setActiveSection,settimeOfLastClick} = useActiveSectionContext();
                     animate={{opacity:1,scale:1}}
                     transition={{type:"tween",duration:0.2}}
                     >
-                        <Image className='h-24 w-24 rounded-full border-[0.35rem] border-white' width="192" height="192" quality="95" priority={true} src="https://media.licdn.com/dms/image/D4D03AQFaAJ4uT_XG1A/profile-displayphoto-shrink_400_400/0/1692983270243?e=1714608000&v=beta&t=stVZAj5TJn7vTnI_msW7zImbpULQPyN-sT6DS726gDA" alt="Reev portrait"/>    
+                        <Image className='h-24 w-24 rounded-full border-[0.35rem] border-white' width="192" height="192" quality="95" priority={true} src={portrait} alt="Reev portrait"/>    
                     </motion.div>
                     <motion.span
                     initial={{opacity:0,scale:0}}
