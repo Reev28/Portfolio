@@ -49,7 +49,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Goa, India",
     description:
-      "I'm now a full-stack developer at PPL Goa working on the Goancart project.",
+      "I worked as a full-stack developer at PPL Goa working on the Goancart project.",
     icon: React.createElement(CgWorkAlt),
     date: "2023 - 2024",
   },
