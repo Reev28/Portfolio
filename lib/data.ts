@@ -84,7 +84,7 @@ export const projectsData = [
     title: "Goancart",
     description:
       "I worked as a full-stack developer on this industry project for 2 years. Users can access a hyperlocal marketplace in Goa.",
-    tags: ["React", "PHP", "MySQL", "Bootstrap","CodeIgniter","AWS"],
+    tags: ["React", "PHP", "MySQL", "Bootstrap","AWS"],
     imageUrl: goancartImg,
     url: "https://www.goancart.com",
   },
