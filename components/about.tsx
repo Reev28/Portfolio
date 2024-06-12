@@ -27,7 +27,7 @@ function About() {
                  Recently, I worked as a <span className="font-medium">Full Stack Developer</span>, spearheading the creation of a comprehensive application from inception to completion. 
                  <span className="italic">My favorite part of programming</span> is the problem-solving aspect. 
                 I <span className="underline">love</span> the feeling of finally figuring out a solution to a problem. I completed a course on Full Stack Development after which my core stack is <span className="font-medium">React, Next.js, Node.js, and MySQL</span>. 
-                I am also familiar with TypeScript. I am currently looking for a <span className="font-medium">full-time position</span> as a software developer.
+                I am also familiar with TypeScript. I am currently looking for a <span className="font-medium">full-time position</span> as a Frontend developer.
                 </p>
 <p> <span className="italic">When I&apos;m not coding</span>, I enjoy playing video games, watching movies, and playing musical instruments. I also enjoy learning new things.
 </p>
