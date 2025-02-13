@@ -8,7 +8,6 @@ import secretsImg from "@/public/secrets.png";
 import keeperImg from "@/public/keeper.png";
 import weatherly from "@/public/weatherly.png";
 
-
 export const links = [
   {
     name: "Home",
@@ -41,7 +40,7 @@ export const experiencesData = [
     title: "Bachelor of Engineering - Computer Science",
     location: "Goa, India",
     description:
-      "I graduated after 4 years of studying. I immediately found a job as a full-stack developer.",
+      "I completed my 4 years graduation course with a 9.03 CGPA (Grade A+). I was also awarded a Gold Medal for my meritorious academic performance",
     icon: React.createElement(LuGraduationCap),
     date: "2023",
   },
@@ -49,15 +48,15 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Goa, India",
     description:
-      "I worked as a full-stack developer at PPL Goa working on the Goancart project.",
+      "I worked as a full-stack developer at PPL Goa. Developing the Goancart project from the ground up.",
     icon: React.createElement(CgWorkAlt),
     date: "2023 - 2024",
   },
   {
-    title: "Web Developer",
-    location: "Goa, India",
+    title: "React Front-end Developer",
+    location: "Dublin, Ireland",
     description:
-      "I've completed 'The Complete 2024 Web Development Bootcamp' on Udemy. I also upskilled to React and Next.js. I'm open to full-time opportunities.",
+      "Worked at CBE, leading innovators in retail & hospitality technology in Europe. Providing EPoS solutions in Ireland and the UK. Developed UI components in micro frontends using React.",
     icon: React.createElement(FaReact),
     date: "2024",
   },
@@ -68,23 +67,22 @@ export const projectsData = [
     title: "Weatherly",
     description:
       "With loved ones spread worldwide, I know the challenge of coordinating across time zones. That's why I made Weatherly - to simplify this and keep us all close!",
-    tags: ["React", "TypeScript", "Next.js","Tailwind"],
+    tags: ["React", "TypeScript", "Next.js", "Tailwind"],
     imageUrl: weatherly,
     url: "https://weatherlylive.vercel.app/",
   },
   {
     title: "Livid",
-    description:
-      `Livid is a video call application with Features like: login/signup using Google, Schedule meetings, Create and join video meetings, Access and review recorded meetings.`,
-    tags: ["React", "Next.js","TypeScript", "Tailwind", "Clerk"],
+    description: "Livid is a video call application with Features like: login/signup using Google, Schedule meetings, Create and join video meetings, Access and review recorded meetings.",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind", "Clerk"],
     imageUrl: lividImg,
     url: "https://livid.vercel.app/",
   },
   {
     title: "Goancart",
     description:
-      "I worked as a full-stack developer on this industry project for 2 years. Users can access a hyperlocal marketplace in Goa.",
-    tags: ["React", "PHP", "MySQL", "Bootstrap","AWS"],
+      "I worked as a full-stack developer on this industry project. A platform that allows its users to access a hyperlocal marketplace in Goa.",
+    tags: ["React", "PHP", "MySQL", "Bootstrap", "AWS"],
     imageUrl: goancartImg,
     url: "https://www.goancart.com",
   },
@@ -107,22 +105,40 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+  //HTML CSS
   "HTML",
   "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "jQuery",
-  "EJS",
-  "PHP",
-  "Next.js",
-  "Node.js",
-  "Git",
   "Tailwind",
   "Bootstrap",
+  "Material UI",
+  "Framer Motion",
+
+  //JS
+  "JavaScript",
+  "React",
+  "TypeScript",
+  "Next.js",
+  "jQuery",
+  "PHP",
+
+  //TEST
+  "React Testing Library",
+  "Webpack",
+  "Micro Frontend",
+
+  //BACKEND
+  "Node.js",
+  "Express",
+  "REST",
   "MySQL",
   "MongoDB",
-  "Express",
   "PostgreSQL",
-  "Framer Motion",
+
+  //DEVOPS
+  "Git",
+  "AWS",
+  "Azure",
+  "Agile",
+  "Scrum",
+  "Vercel",
 ] as const;
