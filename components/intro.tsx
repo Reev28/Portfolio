@@ -85,13 +85,21 @@ export default function Intro(props: Props) {
           Contact me here
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
-        <a
+        {/* <a
           download
           target={"_blank"}
           href="/Reev Emmanuel Dsouza_Resume.pdf"
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
         >
           Download CV
+          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
+        </a> */}
+        <a
+          target={"_blank"}
+          href="https://drive.google.com/drive/folders/1lm3dz6mHK37Vfqe1NdTl3c5LjHfYnJ-j?usp=sharing"
+          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+        >
+          View CV
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
         <a
